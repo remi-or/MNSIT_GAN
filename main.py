@@ -37,9 +37,6 @@ Gan.make_gan()
 losses, accuracies, times = Gan.train(X, Y, epochs = 0, batch_size = 256, )
 
 Gan.samples(7)
-plt.plot([i for i in range(len(losses))], losses)
-plt.plot([i for i in range(len(losses))], accuracies)
-plt.show()
 
 
 
